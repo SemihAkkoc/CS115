@@ -1,0 +1,7 @@
+R;How old was Ulas when I wrote this question?;19;20;19;
+T;Python is not a high level programming language?;False;5;2;
+R;Who invented Python?;Guido van Rossum;3;
+R;In what year was Google launched on the web?;1998;5;
+R;In computing what is Ram short for?;Random Access Memory;5;
+T;The # symbol can be places to the right of an executable statement ?;True;4;1;
+T;Non-zero values map to False in Python?;False;5;3;
