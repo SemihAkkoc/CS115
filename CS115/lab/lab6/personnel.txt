@@ -1,0 +1,7 @@
+7802,Ahmet Saygin,CS,A,7000
+1356,Mert Kargi,Man,M,3400
+8932,Tuba Ustun,EE,B,10000
+1342,Cagla Bakir,COMD,B,9800
+7545,Betul Turan,IE,M,5000
+4320,Ali Yazi,ECON,A,6400
+1987,Ece Onur,PHYS,B,12000
