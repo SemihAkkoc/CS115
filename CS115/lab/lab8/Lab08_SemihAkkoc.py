@@ -30,6 +30,7 @@ def read_countries(filename):
         countries.append(Country(country[0], country[1], country[2], country[3]))
 
 
+continent_countries, countries = [], []
 read_countries('country.txt')
 continents = input('Enter continent to search: ')
 print('List of Countries in', continents)
