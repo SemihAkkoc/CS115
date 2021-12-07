@@ -12,6 +12,7 @@ def selection_sort(countries):
 
 
 def search_countries(countries, continent, index):
+    global continent_countries
     continent_countries = []
     if continent == countries[index]:
         continent_countries.append(countries[index])
@@ -20,16 +21,14 @@ def search_countries(countries, continent, index):
 
 
 def read_countries(filename):
+    global countries
     file = open(filename, 'r')
     countries = []
     for line in file:
         country = line.split(',')
         country[-1] = country[-1].strip()
         countries.append(Country(country[0], country[1], country[2], country[3]))
-    return countries
 
-
-global continent_countries, countries
 
 read_countries('country.txt')
 continents = input('Enter continent to search: ')
