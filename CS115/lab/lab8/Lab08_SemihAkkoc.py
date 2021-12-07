@@ -5,7 +5,7 @@ def selection_sort(countries):
     for i in range(len(countries)):
         curr_min = countries[i]
         for country in countries[i:]:
-            if curr_min.getContienent() > country.getContinent():
+            if curr_min.getContinent() > country.getContinent():
                 curr_min = country
         countries.remove(curr_min)
         countries.insert(i, curr_min)
