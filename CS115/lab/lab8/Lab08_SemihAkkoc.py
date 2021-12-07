@@ -35,10 +35,9 @@ continents = input('Enter continent to search: ')
 print('List of Countries in', continents)
 search_countries(countries, continents, len(countries)-1)
 for country in continent_countries:
-    print('Country:', country.getCountry())
-    print(f'Average Life Expectancy: {country.calculate_average():1f}')
+    print(country)
 
-new_country_info = [x.strip() for x in input('Enter county name, continent, life expectany for Men and life expectany for Women: ').split(',')]
+new_country_info = [x.strip() for x in input('Enter county name, continent, life expectancy for Men and life expectancy for Women: ').split(',')]
 countries.append(Country(new_country_info[0], new_country_info[1], new_country_info[2], new_country_info[3]))
 print('New Country added\n')
 selection_sort(countries)
